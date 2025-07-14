@@ -1,0 +1,40 @@
+<!--set od options -> select, radio, -->
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+</head>
+<br>
+    <br>
+    <label for="favoriteColor">What is your Favorite Color?</label>
+    <input id="favoriteColor" name="favoriteColor">
+    <!--Select option-->
+    <select id ="favoriteColor" name="favoriteColor">
+        <option value="colorRed">Red</option>
+        <option value="colorBlack"  >Black</option>
+        <option value="colorWhite">White</option>
+    </select>
+    </br>
+
+    <!--Radio buttons-->
+    
+<fieldset>
+    <legend>What is your favorite Meal?</legend>
+    <input type="radio" id="brunch" name="favoriteMeal" value="meal1"><label for="brunch">Brunch</label>
+    <input type="radio" id="lunch"  name="favoriteMeal" value="meal2"><label for="lunch">Lunch</label>
+    <input type="radio" id="dinner" name="favoriteMeal" value="meal3"><label for="dinner">Dinner</label>
+</fieldset> 
+
+<!--checkbox-->
+<fieldset>
+    <legend>Which meals do you enjoy?(choose all that apply)</legend>
+    <input type="checkbox" id="brunch" name="favoriteMeal" value="meal1"><label for="brunch">Brunch</label>
+    <input type="checkbox" id="lunch"  name="favoriteMeal" value="meal2"><label for="lunch">Lunch</label>
+    <input type="checkbox" id="dinner" name="favoriteMeal" value="meal3"><label for="dinner">Dinner</label>
+</fieldset> 
+
+
+
+</body>
+</html>
