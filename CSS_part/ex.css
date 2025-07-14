@@ -1,0 +1,16 @@
+h1{
+   color:palevioletred; 
+   text-align : center;
+}
+
+p{
+    color:grey;
+}
+
+header p span{
+    color: darkblue;
+}
+
+.highlight{
+    background-color:aquamarine;
+}

@@ -1,0 +1,39 @@
+Types of selectors:
+1. Type selectors
+2. Descendent selectors
+3. Class selectors
+
+
+TABLE STRUCTURE:
+<table>
+├── <thead>
+│   └── <tr>
+│       ├── <th>Header 1</th>
+│       ├── <th>Header 2</th>
+│       └── <th>Header 3</th>
+├── <tbody>
+│   ├── <tr>
+│   │   ├── <td>Row 1, Col 1</td>
+│   │   ├── <td>Row 1, Col 2</td>
+│   │   └── <td>Row 1, Col 3</td>
+│   ├── <tr>
+│   │   ├── <td>Row 2, Col 1</td>
+│   │   ├── <td>Row 2, Col 2</td>
+│   │   └── <td>Row 2, Col 3</td>
+├── <tfoot>
+│   └── <tr>
+│       ├── <td>Footer 1</td>
+│       ├── <td>Footer 2</td>
+│       └── <td>Footer 3</td>
+</table>
+
+-->set od options -> select, radio
+
+-->Three types of list: 
+1. ordered list 
+2.unordered list 
+3.Description list
+
+
+<span> as a transparent box that you can wrap around a piece of text or other inline elements to give them unique styling or behavior without breaking the flow of your document.
+
