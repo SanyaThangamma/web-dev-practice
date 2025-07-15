@@ -37,3 +37,15 @@ TABLE STRUCTURE:
 
 <span> as a transparent box that you can wrap around a piece of text or other inline elements to give them unique styling or behavior without breaking the flow of your document.
 
+Note: A web page is a collection of boxes.
+The float property in CSS is used to place elements side by side (usually to the left or right of a container) and allow text or other content to wrap around them.
+
+-->Full Set of Commands (with your repo name):
+bash
+Copy code:
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/san-dev/WebDesign-Practice.git
+git branch -M main
+git push -u origin main

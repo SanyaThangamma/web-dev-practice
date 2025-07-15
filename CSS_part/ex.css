@@ -1,6 +1,6 @@
 h1{
-   color:palevioletred; 
-   text-align : center;
+color:palevioletred;
+text-align : center;
 }
 
 p{
@@ -13,4 +13,8 @@ header p span{
 
 .highlight{
     background-color:aquamarine;
+}
+
+footer .highlight{
+    background-color:lightsalmon;
 }
