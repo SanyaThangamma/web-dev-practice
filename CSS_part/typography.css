@@ -1,0 +1,148 @@
+html {
+    background-color: rgb(244, 169, 103);
+    scroll-behavior: smooth;
+    line-height:1.5;
+}
+
+body {
+    font-family: 'Times New Roman' serif;
+    font-size:medium ;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.no-space{
+    margin:0;
+    line-height:1.2;
+}
+
+a{
+    text-decoration:none;
+}
+
+/*main column typography*/
+.main-area h1{
+    color: rgb(163, 104, 27) ;
+    font-size:120%;
+    font-style:italic;
+    letter-spacing:4px;
+    word-spacing:2px;
+    text-shadow:2px 2px 0 rgb(0,0,0,.3);
+    text-transform:uppercase;
+    /*text-decoration:underline;*/
+}
+
+.main-area p{
+    font-size:100%;
+    text-align:left;
+    text-indent:25px;
+    line-height:1.5;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid rgb(163, 104, 27) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    color: rgb(163, 104, 27) ;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 165%;
+}
+
+header p {
+    margin: 5px 0 20px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* center nav links */
+    gap: 15px; /* spacing between boxes */
+    padding: 10px 0;
+    background-color: transparent; /* optional: remove outer box */
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(163, 104, 27) ;
+    padding: 10px 20px;
+    background-color: rgb(244, 169, 103);
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: rgb(244, 169, 103);
+    color: rgb(244, 169, 103);
+}
+
+
+
+hr.single-line {
+    border: none;
+    border-top: 2px solid rgb(163, 104, 27) ;
+    margin: 20px 0;
+}
+
+.content-area {
+    padding: 20px 0;
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 34%;
+    float: right;
+    background-color: rgb(244, 169, 103);
+    padding: 20px 40px;
+    font-size: 85%;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 85%;
+    color: rgb(244, 169, 103);
+    padding-top: 40px;
+}
+
+/* Clearfix */
+.group::before,
+.group::after {
+    content: "";
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+

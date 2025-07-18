@@ -132,6 +132,7 @@ input[type="submit"]{
     padding: 10px solid rgb(84, 18, 64) ;
     border-radius: 3px;
     margin-bottom:10px;
+    outline:none;
 }
 
 
@@ -139,6 +140,11 @@ input[type="submit"]:hover,
 input[type="submit"]:focus{
     border: 1px solid #da3370;
     background-color:#ea749f;
+}
+
+.checkbox-text{
+    font-size:85%;
+    color:#ca2a65;
 }
 
 select{
