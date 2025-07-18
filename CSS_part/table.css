@@ -1,0 +1,161 @@
+html {
+    background-color: #99ccff;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 95%;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid navy;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    color: navy;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 165%;
+}
+
+header p {
+    margin: 5px 0 20px;
+}
+
+.site-nav {
+    margin-bottom: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.site-nav li {
+    list-style: none;
+}
+
+.site-nav a {
+    color: navy;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid navy;
+    border-bottom: none;
+    background-color: #f0f8ff;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.site-nav a:hover {
+    background-color: rgb(161, 161, 236);
+}
+
+hr.single-line {
+    border: none;
+    border-top: 2px solid navy;
+    margin: 20px 0;
+}
+
+.content-area {
+    padding: 20px 0;
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/*table styles*/
+table{
+    border-spacing:0;
+    border-collapse:collapse;
+    width:100%;
+
+}
+
+table th{
+    text-align:left;
+    background-color:#c0defd;
+    color:#0059b3;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+
+}
+
+.col-item-name{
+    width:60%;
+}
+.col-quantity,
+.col-price{
+    width:20%;
+}
+
+
+table th,
+table td{
+    border:1px solid #0059b3;
+    padding:10px;
+}
+
+table tbody tr:nth-child(odd){/*add alternate colors inside the colors*/
+    background-color:#d7e2ee;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+th:nth-child(2),
+th:nth-child(3) {
+    text-align: center;
+}
+
+
+.sidebar {
+    width: 34%;
+    float: right;
+    background-color: #b3d9ff;
+    padding: 20px 40px;
+    font-size: 85%;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 85%;
+    color: #0059b3;
+    padding-top: 40px;
+}
+
+/* Clearfix */
+.group::before,
+.group::after {
+    content: "";
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
